@@ -4,20 +4,7 @@ public class StartMain {
     public static void main(String args[]){
         BankAccount vadimAccount=new BankAccount("Vadim");
         BankAccount olgaAccount=new BankAccount("Olga");
-        /*
-        System.out.println("Card Balance \n"+"Name: "+vadimAccount.NameAccount +"\nBalance money: "+ vadimAccount.BalanceMoney +"\nData open cart: "+ vadimAccount.DateOpen + "\nBalance status blocked: "+ vadimAccount.BalanceStatusBlock);
-        System.out.println("\n");
-        System.out.println("Card Balance \n"+"Name: "+olgaAccount.NameAccount +"\nBalance money: "+ olgaAccount.BalanceMoney +"\nData open cart: "+ olgaAccount.DateOpen + "\nBalance status blocked: "+ olgaAccount.BalanceStatusBlock);
-        vadimAccount.Deposit(777420);
-        System.out.println("\n Обработка операции... \n");
-        System.out.println("Card Balance \n"+"Name: "+vadimAccount.NameAccount +"\nBalance money: "+ vadimAccount.BalanceMoney +"\nData open cart: "+ vadimAccount.DateOpen + "\nBalance status blocked: "+ vadimAccount.BalanceStatusBlock);
-        vadimAccount.Withdraw((450232));
-        System.out.println("\n Обработка операции... \n");
-        System.out.println("Card Balance \n"+"Name: "+vadimAccount.NameAccount +"\nBalance money: "+ vadimAccount.BalanceMoney +"\nData open cart: "+ vadimAccount.DateOpen + "\nBalance status blocked: "+ vadimAccount.BalanceStatusBlock);
-        vadimAccount.Transfer(olgaAccount,3562);
-        System.out.println("\n Обработка операции... \n");
-        System.out.println("Card Balance \n"+"Name: "+vadimAccount.NameAccount +"\nBalance money: "+ vadimAccount.BalanceMoney +"\nData open cart: "+ vadimAccount.DateOpen + "\nBalance status blocked: "+ vadimAccount.BalanceStatusBlock);
-        */
+        
         System.out.println(vadimAccount);
         System.out.println("\n");
         System.out.println(olgaAccount);
